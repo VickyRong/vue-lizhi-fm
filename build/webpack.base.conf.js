@@ -8,16 +8,17 @@ function resolve (dir) {
 }
 
 module.exports = {
-  entry: {
+  entry: { //页面入口文件配置
     app: './src/main.js'
   },
-  output: {
+  output: { //入口文件输出配置
     path: config.build.assetsRoot,
     filename: '[name].js',
     publicPath: process.env.NODE_ENV === 'production'
       ? config.build.assetsPublicPath
       : config.dev.assetsPublicPath
   },
+  //其它解决方案配置
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
@@ -26,6 +27,7 @@ module.exports = {
     }
   },
   module: {
+    //加载器配置
     rules: [
       {
         test: /\.vue$/,
