@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div class="nav_tab">
+      <router-link to="/find">发现</router-link>
+      <router-link to="/channel">频道</router-link>
+      <router-link to="/recommend">推荐</router-link>
+      <router-link to="/book">订阅</router-link>
+    </div>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    .active{
+      color:red;
+    }
 </style>
