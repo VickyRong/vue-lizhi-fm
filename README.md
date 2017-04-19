@@ -1,21 +1,30 @@
 # vue-lizhi-fm
+写在前面
+    vue这两年大热，最近工作中也需要用到这个框架，花了一周的时间看了文档，总觉得光看一遍文档很难对vue有很深的理解，目前对于vue也处于初步了解的阶段，所以想写一个基于vue,以展示类为主，复杂度不是很高的app作为入门，加之对于荔枝fm是真的很喜欢，这款app陪伴了我无数个夜晚，当我一个人漂泊在外的时候，总能有一些声音陪我入睡，让我倍感温暖不再那么孤单，所以用这个素材，我个人是非常喜欢的，我想，这也能激励我坚持写下去。。。
+
+目标功能
+● 登陆／注册
+● 获取电台节目
+● 频道分类
+● 节目推荐
+● 订阅节目
+● 下载节目
+● 收藏节目
+● 获取历史播放记录
+● 设置个人信息
+● 信息推送功能
 
 
-
-## Build Setup
-
-``` bash
-# install dependencies
+安装包
 npm install
 
-# serve with hot reload at localhost:8080
+运行项目
 npm run dev
 
-# build for production with minification
+项目打包
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+
 
 
 
