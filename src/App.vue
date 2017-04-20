@@ -17,7 +17,12 @@ export default {
 </script>
 
 <style>
+body{
+  background: #fffcf3;
+}
     .active{
       color:red;
     }
+    @import 'style/common.css';
 </style>
+ 
