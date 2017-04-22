@@ -1,0 +1,12 @@
+.border-1px{
+    position: relative;
+}
+.border-1px::after{
+    content:"";
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    border-bottom:1px solid #c7c7c7;
+    transform:scaleY(.5);
+}

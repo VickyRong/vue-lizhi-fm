@@ -2,10 +2,10 @@ body {
   background: #fffcf3;
 }
 #app {
-  padding: 0.75rem 0.75rem 0 0.75rem;
+  padding: 0.75rem 0 0 0;
 }
 #app .nav_tab {
-  padding: 0 2.15rem;
+  padding: 0 2.9rem 0.375rem;
   font-size: 0;
 }
 #app .nav_tab a {
@@ -19,4 +19,7 @@ body {
 }
 #app .nav_tab .view-active {
   color: #e33958;
+}
+#app .app-content {
+  padding: 0.75rem;
 }

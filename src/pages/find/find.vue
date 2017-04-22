@@ -1,21 +1,19 @@
 <template>
   <div class="find">
-   <h1>发现页面</h1>
+    <myswiper></myswiper>
   </div>
 </template>
 
 <script>
+import myswiper  from '@/components/myswiper/myswiper';
 export default {
-  name: 'hello',
-  data () {
-    return {
-  
-    }
+  components:{
+    myswiper
   }
+   
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>
