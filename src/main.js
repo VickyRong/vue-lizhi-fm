@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 
 var router = new VueRouter({
 	routes:routes,
-  linkActiveClass: 'active'
+  linkActiveClass: 'view-active'
 })
 new Vue({
   el: '#app',

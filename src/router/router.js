@@ -1,7 +1,7 @@
-import find from '@/components/find/find'
-import channel from '@/components/channel/channel'
-import recommend from '@/components/recommend/recommend'
-import book from '@/components/book/book'
+import find from '@/pages/find/find'
+import channel from '@/pages/channel/channel'
+import recommend from '@/pages/recommend/recommend'
+import book from '@/pages/book/book'
 
 const routes = [
   { path: '/', redirect: '/find'},
