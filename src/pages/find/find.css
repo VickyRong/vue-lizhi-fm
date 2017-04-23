@@ -1,0 +1,48 @@
+.find .content-list {
+  overflow-y: scroll;
+}
+.find .content-list h3 {
+  color: #747067;
+  font-size: .8rem;
+  font-weight: normal;
+  padding-left: 0.625rem;
+  border-left: 3px solid #da5766;
+  margin: 0.625rem 0;
+}
+.find .content-list ul li {
+  float: left;
+  width: 8.25rem;
+  overflow: hidden;
+  font-size: .7rem;
+}
+.find .content-list ul li .img-box {
+  position: relative;
+}
+.find .content-list ul li .img-box img {
+  width: 100%;
+  border-radius: .1rem;
+}
+.find .content-list ul li .img-box span {
+  bottom: 0.2rem;
+  right: 0;
+  color: #fff;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.1rem 0.3rem;
+}
+.find .content-list ul li .des {
+  color: #605c53;
+  font-size: .8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.find .content-list ul li .tit {
+  color: #a19c95;
+}
+.find .content-list ul li .count {
+  color: #d1ccc8;
+}
+.find .content-list ul li:nth-child(odd) {
+  margin-right: 0.625rem;
+}

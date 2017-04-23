@@ -22,4 +22,5 @@ body {
 }
 #app .app-content {
   padding: 0.75rem;
+  overflow: hidden;
 }

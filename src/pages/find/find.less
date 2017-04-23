@@ -1,0 +1,55 @@
+@r:2*20rem;
+
+.find{
+    .content-list{
+        overflow-y: scroll;
+         h3{
+            color:#747067;
+            font-size: .8rem;
+            font-weight: normal;
+            padding-left: 25/@r;
+            border-left:3px solid #da5766;
+            margin:25/@r 0;
+        }
+        ul{
+            li{
+                float: left;
+                width:330/@r;
+                overflow: hidden;
+                font-size: .7rem;
+                .img-box{
+                    position: relative;
+                    img{
+                        width: 100%;
+                        border-radius: .1rem;
+                    }
+                    span{
+                        bottom: 0.2rem;
+                        right: 0;
+                        color: #fff;
+                        position: absolute;
+                        background: rgba(0, 0, 0, 0.3);
+                        padding: 0.1rem 0.3rem;
+                    }
+                }
+                .des{
+                    color:#605c53;
+                    font-size: .8rem;
+                    overflow: hidden;
+                    text-overflow:ellipsis;
+                    white-space: nowrap;
+                }
+                .tit{
+                    color:#a19c95;
+                }
+                .count{
+                    color:#d1ccc8;
+                }
+            }
+            li:nth-child(odd){
+                margin-right: 25/@r;
+            }
+        }
+    }
+   
+}

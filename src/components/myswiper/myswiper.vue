@@ -28,7 +28,7 @@ export default {
        direction: 'horizontal',
        loop: true,
        autoplay : 2000,
-       pagination: '.swiper-pagination'
+       pagination: '.swiper-pagination' 
      })
      console.log(mySwiper)
    }
